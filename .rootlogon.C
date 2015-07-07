@@ -1,5 +1,5 @@
 {
-  TStyle *tdrStyle = new TStyle("tdrStyle","Style for P-TDR");
+  /*TStyle *tdrStyle = new TStyle("tdrStyle","Style for P-TDR");
 
   cout << "TDR Style initialized" << endl;
 
@@ -59,7 +59,7 @@
   tdrStyle->SetOptFile(0);
   tdrStyle->SetOptStat(0); // To display the mean and RMS:   SetOptStat("mr");
   tdrStyle->SetStatColor(kWhite);
-  tdrStyle->SetStatFont(42);
+  tdrStyle->SetStatFont(10);
   tdrStyle->SetStatFontSize(0.025);
   tdrStyle->SetStatTextColor(1);
   tdrStyle->SetStatFormat("6.4g");
@@ -94,7 +94,7 @@
 // For the axis titles:
 
   tdrStyle->SetTitleColor(1, "XYZ");
-  tdrStyle->SetTitleFont(42, "XYZ");
+  tdrStyle->SetTitleFont(20, "XYZ");
   tdrStyle->SetTitleSize(0.06, "XYZ");
 // The inconsistency is great!
   tdrStyle->SetTitleXOffset(1.0);
@@ -103,16 +103,17 @@
 // For the axis labels:
 
   tdrStyle->SetLabelColor(1, "XYZ");
-  tdrStyle->SetLabelFont(42, "XYZ");
+  tdrStyle->SetLabelFont(10, "XYZ");
   tdrStyle->SetLabelOffset(0.007, "XYZ");
-  tdrStyle->SetLabelSize(0.05, "XYZ");
+  tdrStyle->SetLabelSize(0.005, "XYZ");
+  cout<<"I'm changing things!"<<endl;
 
 // For the axis:
 
   tdrStyle->SetAxisColor(1, "XYZ");
   tdrStyle->SetStripDecimals(kTRUE);
   tdrStyle->SetTickLength(0.03, "XYZ");
-  tdrStyle->SetNdivisions(510, "XYZ");
+  tdrStyle->SetNdivisions(410, "XYZ");
   tdrStyle->SetPadTickX(1);  // To get tick marks on the opposite side of the frame
   tdrStyle->SetPadTickY(1);
 
@@ -121,10 +122,12 @@
   tdrStyle->SetOptLogy(0);
   tdrStyle->SetOptLogz(0);
 
-  tdrStyle->SetPalette(1,0);
-  tdrStyle->cd();
-
+  //  tdrStyle->SetPalette(1,0);
+  //  tdrStyle->cd();
+*/
   cout<<"HI Ian, Try not to get frustrated with me"<<endl;
   cout<<"afterall you are only human"<<endl;
   cout<<"have a nice day!! :)\n"<<endl;
+  cout<<"\n Remember its better to bring a bazooka!"<<endl;
+
 }
